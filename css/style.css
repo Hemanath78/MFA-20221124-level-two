@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0; 
+    padding: 0;
+}
+
+html {
+    font-size: 18px;
+}
+
+body {
+    font-family: 'Outfit', sans-serif;
+    background-color: hsl(217, 54%, 11%);
+}
+
+
+.main {
+    height: 800px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.container {
+    background-color: hsl(216, 50%, 16%);
+    padding: 1.2em;
+    border-radius: 10px;
+    margin: 2em;
+}
+
+.main .container .content-text .content-flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.main .container .content-text .footer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.main .container .content-text .footer img {
+    width: 40px;
+    border: 2px solid white;
+    border-radius: 50%;
+}
+
+.main .container .images img {
+    width: 300px;
+    border-radius: 10px;
+}
+
+.container .content-text{
+    padding-top: 1em;
+}
+
+.container .content-text .title {
+    color: hsl(0, 0%, 100%);
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+
+.container .content-text .desc {
+    padding-top: .5em;
+    color: hsl(215, 51%, 70%);
+    width: 300px;
+    font-weight: 300;
+}
+
+.container .content-flex {
+    padding-top: 1em;
+}
+
+.container .content-flex .stock {
+    color: hsl(178, 100%, 50%);
+}
+
+.container .content-flex .time {
+    color: hsl(215, 51%, 70%);
+}
+
+.container .line {
+    margin: 1em 0;
+    height: 1px;
+    width: 300px;
+    background-color: hsl(215, 51%, 70%);  
+}
+
+.container .footer p {
+    margin-left: 1em;
+    color: hsl(0, 0%, 100%);
+
+}
+
+.container .footer p span {
+    color: hsl(215, 51%, 70%);
+}
