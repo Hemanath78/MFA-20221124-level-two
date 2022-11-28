@@ -1,5 +1,6 @@
-# Frontend Mentor - NFT preview card component
+# NFT preview card component
 
+link to the website - https://hemanath78.github.io/MFA-20221124-level-two/
 
 ### Level 2
 
